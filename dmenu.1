@@ -28,6 +28,12 @@ dmenu \- dynamic menu
 .IR color ]
 .RB [ \-shf
 .IR color ]
+.RB [ \-hb
+.IR color ]
+.RB [ \-hf
+.IR color ]
+.RB [ \-hp
+.IR items ]
 .RB [ \-w
 .IR windowid ]
 .P
@@ -97,6 +103,15 @@ defines the selected highlight background color.
 .TP
 .BI \-shf " color"
 defines the selected highlight foreground color.
+.TP
+.BI \-hb " color"
+defines the high priority items background color.
+.TP
+.BI \-hf " color"
+defines the high priority items foreground color.
+.TP
+.BI \-hp " items"
+define a CSV\-formatted list of high priority items.
 .TP
 .B \-v
 prints version information to stdout, then exits.
