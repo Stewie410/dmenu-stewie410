@@ -33,11 +33,6 @@ static const char col_lcyan[]       = "#a3f7ff";
 static const char col_lwhite[]      = "#ffffff";
 
 /* Colors */
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-//static const char col_cyan[]        = "#005577";
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { col_white, col_black },
