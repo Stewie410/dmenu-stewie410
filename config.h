@@ -6,7 +6,7 @@ static int fuzzy    = 1;                    /* -F  option; if 0, dmenu doesn't u
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
     "Fira Code Regular:fontformat=true:pixelsize=11:antialias=true;3",
-	"monospace:size=11;3",
+	"monospace:size=11",
     "unifont:fontformat=true:size=11:antialias=false;0",
     "siji:pixelsize=11;3",
     "Font Awesome 5 Free:fontformat=true:pixelsize=10:antialias=true:style=solid;3",
